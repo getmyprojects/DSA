@@ -1,5 +1,8 @@
-import heapq
+"""
+    Median in a stream of integers (running integers)
+"""
 
+import heapq
 
 # NOTE: Since python doesn't has max heap directly, so we'll multiply numbers
 # with -1 to achieve it
