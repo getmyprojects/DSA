@@ -7,6 +7,7 @@ import heapq
 # NOTE: Since python doesn't has max heap directly, so we'll multiply numbers
 # with -1 to achieve it
 
+
 class MedianFinder:
     def __init__(self):
         self.small = []     # will be used as max heap
