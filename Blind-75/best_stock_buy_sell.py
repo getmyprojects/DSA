@@ -19,7 +19,7 @@ class Solution:
     def maxProfit(self, prices):
         max_profit = 0
         l,r = 0,1
-        while l<r and r<len(prices):
+        while r<len(prices):
             if prices[l] < prices[r]:
                 max_profit = max(prices[r]-prices[l], max_profit)
             else:
