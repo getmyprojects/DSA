@@ -7,7 +7,7 @@ Note: leetcode 217
 
 
 class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
+    def containsDuplicate(self, nums):
         # return True if len(nums) > len(set(nums)) else False  # one line solution
         seen = set()
         for n in nums:
@@ -16,4 +16,3 @@ class Solution:
             seen.add(n)
 
         return False
-    
