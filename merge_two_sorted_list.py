@@ -32,9 +32,9 @@ def merge_two_lists(l1, l2):
 
         cur = cur.next
 
-        # edge case in case one list is bigger
-        cur.next = l1 or l2
-        return start.next
+    # edge case in case one list is bigger
+    cur.next = l1 or l2
+    return start.next
 
 
 if __name__ == "__main__":
